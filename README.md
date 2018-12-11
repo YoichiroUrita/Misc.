@@ -2,6 +2,7 @@
 Miscellaneous
 ---
 # PDF to text
+
 Sorry, this article is for Japanese.<br>
 PDF24 printerを使ってPDFを作成したものからテキストを抜き出すと文字化けしていました。<br>
 最初はphpのsmalot/PdfPaserを使って変換していて文字化けを起こしたので、他のを試そうと思いました。<br>
@@ -21,3 +22,20 @@ pdfminer.sixはatoumとインストールするためにpipが必要になりま
 こちらは、上記のファイルを外部実行してreplaceするもの。<br>
 Pythonは全く設定していません。<br>
 ところが、ブラウザで結果を見たかったのと、修正後に抽出したテキストをMySQLに渡す予定だったので、ある程度慣れているphpを選んでいます。<br>
+
+---
+
+# Simple POST collector
+
+My young co-worker asked "How to collect questionnaire by HTML ?", and she brought HTML written by a kind of old commercial HTML editor.<br>
+
+I suggest this script(PostCollection.php) , but it does not work....<br>
+
+I checked HTML , and finally find out the point of problem as below.<br>
+
+<code>
+  &lt;FORM ENCTYPE="text/plain" NAME=".......&gt;
+</code>
+<br>
+
+After removed encrypt type attribution, It works well.&nbsp;:P
