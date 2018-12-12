@@ -39,3 +39,19 @@ I checked HTML , and finally find out the point of problem as below.<br>
 <br>
 
 After removed encrypt type attribution, It works well.&nbsp;:P
+
+---
+
+# MySQL_Connector
+
+This class is wrapper for MySQL PDO.<br>
+
+| PDO  | This class | Note |
+|-----------| -----------|---|
+| new PDO(***) | new mysql_connector | Parameters of connection are marked on head of this class |
+| query(SQL) | Query(SQL) | Query() extract result directly. Fetch/FetchAll are not needed.(include) |
+| prepare(SQL) | Prepare(SQL) | same as PDO |
+| bindValue(PARAM,VALUE) | BindValue(PARAM,VALUE) | same as PDO |
+| Excute() | ExFetch() | ExFetch() extract result directly. Fetch/FetchAll are not needed.(include) |
+
+It makes you reduce typing. ^_^
