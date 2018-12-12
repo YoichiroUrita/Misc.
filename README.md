@@ -33,9 +33,10 @@ I suggest this script(PostCollection.php) , but it does not work....<br>
 
 I checked HTML , and finally find out the point of problem as below.<br>
 
-<code>
-  &lt;FORM ENCTYPE="text/plain" NAME=".......&gt;
-</code>
+````html
+  <FORM ENCTYPE="text/plain" NAME=".......>
+````
+
 <br>
 
 After removed encrypt type attribution, It works well.&nbsp;:P
