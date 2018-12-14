@@ -1,6 +1,8 @@
 # Misc.
 Miscellaneous
+
 ---
+
 # PDF to text
 
 Sorry, this article is for Japanese.<br>
@@ -56,3 +58,13 @@ This class is wrapper for MySQL PDO.<br>
 | Excute() | ExFetch() | ExFetch() extract result directly. Fetch/FetchAll are not needed.(include) |
 
 It makes you reduce typing. ^_^
+
+---
+
+# File list order by name for Windows
+
+<a href="FilelistOrderByNameNotRecursive.bat">FilelistOrderByNameNotRecursive.bat</a> is listing files order by name and is NOT recursive search.<br>
+
+See comments if you want another option.
+
+---
