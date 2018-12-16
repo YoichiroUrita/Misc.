@@ -68,3 +68,11 @@ It makes you reduce typing. ^_^
 See comments if you want another option.
 
 ---
+
+# File list with seeking sub-folder recursively by Excel
+
+<a href="FilelistRecursively.vba">FilelistRecursively.vba</a> is listing files by recursive search.
+
+It is similar to above one but RECURSIVE.
+
+BAT file is more quick. So choose this or BAT by your purpose.
