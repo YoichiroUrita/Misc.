@@ -85,4 +85,6 @@ This is a simple sample by <a href="https://phpspreadsheet.readthedocs.io/en/dev
 
 PhpSpreadsheet is successor of PhpExcel, and deals with Excel Files (.xls,.xlsx,.xlsm and more).
 
-I was looking for sample about output to browser by read XLSX. But that is rarely found. So I wrote this.
+I was looking for sample about output to browser from read XLSX. But that is rarely found. 
+
+So I wrote this for someone looking for same thing.
