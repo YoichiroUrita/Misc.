@@ -76,3 +76,13 @@ See comments if you want another option.
 It is similar to above one but RECURSIVE.
 
 BAT file is more quick. So choose this or BAT by your purpose.
+
+---
+
+# Simple Example which output to browser from read XLSX file by PhpSpreadsheet.
+
+This is a simple sample by <a href="https://phpspreadsheet.readthedocs.io/en/develop/">PhpSpreadsheet.</a>
+
+PhpSpreadsheet is successor of PhpExcel, and deals with Excel Files (.xls,.xlsx,.xlsm and more).
+
+I was looking for sample about output to browser by read XLSX. But that is rarely found. So I wrote this.
